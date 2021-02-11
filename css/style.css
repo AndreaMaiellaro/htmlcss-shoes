@@ -8,6 +8,10 @@ body {
     font-family: "Rubik Mono One", Arial, Helvetica, sans-serif;
 }
 
+li ul {
+    display: inline-block;
+}
+
 .cerchio {
     font-size: 25px;
     color: black;
@@ -18,6 +22,7 @@ body {
     border: 2px solid black;
     text-align: center;
     line-height: 50px;
+    position: fixed;
 }
 
 section {
