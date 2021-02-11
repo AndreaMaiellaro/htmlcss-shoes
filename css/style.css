@@ -8,11 +8,21 @@ body {
     font-family: "Rubik Mono One", Arial, Helvetica, sans-serif;
 }
 
-li ul {
+nav {
+    text-align: right;
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul li {
     display: inline-block;
 }
 
 .cerchio {
+    margin:10px;
     font-size: 25px;
     color: black;
     width: 50px;
@@ -22,7 +32,7 @@ li ul {
     border: 2px solid black;
     text-align: center;
     line-height: 50px;
-    position: fixed;
+    background: white;
 }
 
 section {
